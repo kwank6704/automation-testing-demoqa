@@ -1,0 +1,22 @@
+{
+  "name": "automation-testing-demoqa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwank6704/automation-testing-demoqa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwank6704/automation-testing-demoqa/issues"
+  },
+  "homepage": "https://github.com/kwank6704/automation-testing-demoqa#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3"
+  }
+}
