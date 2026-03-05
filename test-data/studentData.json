@@ -1,0 +1,42 @@
+{
+  "valid": {
+    "firstName": "Somsak",
+    "lastName": "Jaidee",
+    "email": "somsak.jaidee@example.com",
+    "gender": "Male",
+    "mobile": "9876543210",
+    "dateOfBirth": { "day": "15", "month": "May", "year": "2000" },
+    "subjects": ["Maths", "Physics"],
+    "hobbies": ["Sports", "Reading"],
+    "address": "123 Sukhumvit Road, Bangkok",
+    "state": "NCR",
+    "city": "Delhi",
+    "picturePath": "picture/student.png"
+  },
+
+  "mobile": {
+    "valid_10digits":      "9876543210",
+    "invalid_9digits":     "987654321",
+    "invalid_11digits":    "98765432101",
+    "invalid_alpha":       "9876abc210",
+    "invalid_special":     "9876!@#210",
+    "boundary_lower":      "1000000000",
+    "boundary_upper":      "9999999999"
+  },
+
+  "email": {
+    "valid":               "test@example.com",
+    "invalid_no_at":       "testexample.com",
+    "invalid_no_domain":   "test@",
+    "invalid_no_prefix":   "@example.com"
+  },
+
+  "mandatoryFields": ["firstName", "lastName", "gender", "mobile"],
+
+  "stateCity": {
+    "NCR":       ["Delhi", "Gurgaon", "Noida"],
+    "Uttar Pradesh": ["Agra", "Lucknow", "Merrut"],
+    "Haryana":   ["Karnal", "Panipat"],
+    "Rajasthan": ["Jaipur", "Jaiselmer"]
+  }
+}
