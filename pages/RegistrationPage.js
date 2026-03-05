@@ -133,6 +133,19 @@ class RegistrationPage {
       state: 'hidden', 
       timeout: 5000 
     });
+
+    /*await this.page.evaluate(() => {
+      document.querySelectorAll('iframe, #fixedban, [id*="google_ads"], footer').forEach(el => el.remove());
+    });
+    await this.modalCloseButton.scrollIntoViewIfNeeded();
+    await this.modalCloseButton.click({ force: true });
+    await this.page.waitForFunction(() => {
+      const modal = document.querySelector('.modal-content');
+      return !modal || modal.offsetParent === null;
+    }, { timeout: 10000 });
+      */
+
+    // ไม่รู้ทำไม ลอง manual close แล้ว modal ยังไม่หายไปเลยต้องใช้วิธีนี้แทน
   }
 
   // Validation Helpers
