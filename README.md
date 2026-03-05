@@ -1,7 +1,7 @@
 # Student Registration Form — Automated Test Suite
 
 **URL under test:** https://demoqa.com/automation-practice-form  
-**Framework:** Playwright (TypeScript)
+**Framework:** Playwright (๋JavaScript)
 
 ---
 
